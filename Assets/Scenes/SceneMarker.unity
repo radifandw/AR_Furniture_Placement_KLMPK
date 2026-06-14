@@ -903,11 +903,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: image-_5_
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PROJECT.xml
+  mDataSetPath: Vuforia/PROJECT_AR.xml
   mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 0.1
-  mHeight: 0.1
+  mWidth: 1
+  mHeight: 1
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -944,7 +944,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 1141510777}
   mHiddenRoot: {fileID: 0}
   mTargetName: image-_5_
-  mDatasetName: Vuforia/PROJECT.xml
+  mDatasetName: Vuforia/PROJECT_AR.xml
   mCastedBehaviour: {fileID: 1141510777}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1855,11 +1855,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: image-_6_
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PROJECT.xml
+  mDataSetPath: Vuforia/PROJECT_AR.xml
   mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 0.1
-  mHeight: 0.1
+  mWidth: 1
+  mHeight: 1
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1896,7 +1896,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 1461760880}
   mHiddenRoot: {fileID: 0}
   mTargetName: image-_6_
-  mDatasetName: Vuforia/PROJECT.xml
+  mDatasetName: Vuforia/PROJECT_AR.xml
   mCastedBehaviour: {fileID: 1461760880}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1918,15 +1918,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7778393500065320228, guid: ce520a80ec759534faf5156d964a8f52, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.04
+      value: 0.39999998
       objectReference: {fileID: 0}
     - target: {fileID: 7778393500065320228, guid: ce520a80ec759534faf5156d964a8f52, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.04
+      value: 0.39999998
       objectReference: {fileID: 0}
     - target: {fileID: 7778393500065320228, guid: ce520a80ec759534faf5156d964a8f52, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.04
+      value: 0.39999998
       objectReference: {fileID: 0}
     - target: {fileID: 7778393500065320228, guid: ce520a80ec759534faf5156d964a8f52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2456,13 +2456,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: gemini_generated_image_u52d7ru52d7ru52d-_1_
+  mTrackableName: image-_7_
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PROJECT.xml
+  mDataSetPath: Vuforia/PROJECT_AR.xml
   mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 0.1
-  mHeight: 0.1
+  mWidth: 1
+  mHeight: 1
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2498,8 +2498,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
   mObserverBehaviour: {fileID: 1808357597}
   mHiddenRoot: {fileID: 0}
-  mTargetName: gemini_generated_image_u52d7ru52d7ru52d-_1_
-  mDatasetName: Vuforia/PROJECT.xml
+  mTargetName: image-_7_
+  mDatasetName: Vuforia/PROJECT_AR.xml
   mCastedBehaviour: {fileID: 1808357597}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -2517,15 +2517,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4345935775561323401, guid: 87c5716f45c753849b8cc04d508a6013, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.04
+      value: 0.39999998
       objectReference: {fileID: 0}
     - target: {fileID: 4345935775561323401, guid: 87c5716f45c753849b8cc04d508a6013, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.04
+      value: 0.39999998
       objectReference: {fileID: 0}
     - target: {fileID: 4345935775561323401, guid: 87c5716f45c753849b8cc04d508a6013, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.04
+      value: 0.39999998
       objectReference: {fileID: 0}
     - target: {fileID: 4345935775561323401, guid: 87c5716f45c753849b8cc04d508a6013, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2735,15 +2735,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3069658441873002186, guid: ece63765b96fb7148aee7397b0450ef9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.04
+      value: 0.39999998
       objectReference: {fileID: 0}
     - target: {fileID: 3069658441873002186, guid: ece63765b96fb7148aee7397b0450ef9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.04
+      value: 0.39999998
       objectReference: {fileID: 0}
     - target: {fileID: 3069658441873002186, guid: ece63765b96fb7148aee7397b0450ef9, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.04
+      value: 0.39999998
       objectReference: {fileID: 0}
     - target: {fileID: 3069658441873002186, guid: ece63765b96fb7148aee7397b0450ef9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2751,11 +2751,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3069658441873002186, guid: ece63765b96fb7148aee7397b0450ef9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.02
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3069658441873002186, guid: ece63765b96fb7148aee7397b0450ef9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.14
+      value: 1.46
       objectReference: {fileID: 0}
     - target: {fileID: 3069658441873002186, guid: ece63765b96fb7148aee7397b0450ef9, type: 3}
       propertyPath: m_LocalRotation.w
