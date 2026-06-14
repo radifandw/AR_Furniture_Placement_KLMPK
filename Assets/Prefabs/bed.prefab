@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 27444934a23a6654a9d76e1ec14f8748, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f9249a7f440d4a9498f6372409713d22, type: 2}
     - target: {fileID: 919132149155446097, guid: 27444934a23a6654a9d76e1ec14f8748, type: 3}
       propertyPath: m_Name
       value: bed

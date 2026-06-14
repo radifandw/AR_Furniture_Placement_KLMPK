@@ -10,6 +10,12 @@ public class UIManager : MonoBehaviour
     [Header("AR Reference")]
     public FurniturePlacement furniturePlacement;
 
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip voiceKasur;
+    public AudioClip voiceSofa;
+    public AudioClip voiceLoker;
+
     void Start()
     {
         ShowHome();
@@ -19,6 +25,7 @@ public class UIManager : MonoBehaviour
     {
         if (homePanel != null) homePanel.SetActive(true);
         if (backButton != null) backButton.SetActive(false);
+        StopVoice();
     }
 
     public void StartAR()
@@ -32,6 +39,7 @@ public class UIManager : MonoBehaviour
         if (furniturePlacement != null)
             furniturePlacement.ChangeFurniture(0);
         StartAR();
+        PlayVoice(voiceKasur);
     }
 
     public void SelectSofa()
@@ -39,6 +47,7 @@ public class UIManager : MonoBehaviour
         if (furniturePlacement != null)
             furniturePlacement.ChangeFurniture(1);
         StartAR();
+        PlayVoice(voiceSofa);
     }
 
     public void SelectLoker()
@@ -46,6 +55,7 @@ public class UIManager : MonoBehaviour
         if (furniturePlacement != null)
             furniturePlacement.ChangeFurniture(2);
         StartAR();
+        PlayVoice(voiceLoker);
     }
 
     public void BackToHome()
@@ -53,5 +63,19 @@ public class UIManager : MonoBehaviour
         ShowHome();
         if (furniturePlacement != null)
             furniturePlacement.DeleteFurniture();
+    }
+
+    void PlayVoice(AudioClip clip)
+    {
+        if (audioSource != null && clip != null)
+        {
+            audioSource.Stop();
+            audioSource.PlayOneShot(clip);
+        }
+    }
+
+    void StopVoice()
+    {
+        if (audioSource != null) audioSource.Stop();
     }
 }
